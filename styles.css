@@ -8,15 +8,27 @@ body{
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 header{
     background: #E6E6E6;
     display: flex;
-    width: 100%;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    
+    width: 100%;
+}
+header a{
+    font-size: 20px;
+    text-decoration: none;
+    background: #005677;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+header a:hover{
+    background: white;
+    color: black;
 }
 header img{
     width: 200px;
